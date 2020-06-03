@@ -19,7 +19,7 @@ pipeline{
 		 {
 		    steps{
 		               sh label: '', script: 'mvn package'
-		                                // archiveArtifacts '**/*.war'
+		                                archiveArtifacts '**/*.war'
 		                                 // archiveArtifacts '**/*.jar'
 
 		             }
